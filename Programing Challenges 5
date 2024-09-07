@@ -1,0 +1,24 @@
+#include <isostream>
+useing namespace std;
+
+int main() {
+//Add values to varibales
+  int value1 = 28;
+  int value2 = 32;
+  int value3 = 37;
+  int value4 = 24;
+  int value5 = 33;
+
+//Add values for total int sum
+  int sum = value1 + value2 + vallue3 +value4 + value5;
+
+//Perform the equation to get average 
+  int average = static_cast <int>(sum) / 5;
+
+//Display average
+  cout << " The Average is: " << average <<endl;
+
+return 0;
+  
+
+  
